@@ -1,5 +1,6 @@
 import { Card, CardHeader, CardBody } from 'reactstrap';
 import Section from '../components/section';
+import Expenses from '../components/expenses';
 
 /*
   JSX = JavaScript XML (extensible markup language)
@@ -37,8 +38,6 @@ function Home() {
   return (
     <div className="App">
       <Section title="Welcome to my Expense Tracker App" content="Get Started by creating your first expense" />
-      <Section title="My Expenses" content="Here are all my expenses..." />
-      <Section title="My Income" content="Here are my income transactions..." />
     </div>
   );
 }

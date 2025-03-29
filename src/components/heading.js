@@ -1,5 +1,4 @@
 function Heading(props) {
-  console.log(props);
   // props = an object
   /*
     {
